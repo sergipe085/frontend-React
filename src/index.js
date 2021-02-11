@@ -1,3 +1,4 @@
-import { soma } from './soma.js';
+import React from 'react';
+import { render } from 'react-dom';
 
-console.log(soma(4, 4));
+render(<h1>Hello World</h1>, document.getElementById('app'));
