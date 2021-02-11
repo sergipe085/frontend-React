@@ -6,8 +6,14 @@ const App = () => {
   return(
     //fragment
     <>
-      <Header></Header>
-      <Header></Header>
+      <Header title="Pao">
+        <ul>
+          <li>Menu</li>
+          <li>Projetos</li>
+          <li>Login</li>
+        </ul>
+      </Header>
+      <Header title="com Quejo"/>
     </>
   );
 }
