@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 
 import './App.css';
 
+import backgroundImage from './assets/backgroundImage.jfif';
+
 import Header from './components/Header';
  
 const App = () => {
@@ -15,6 +17,8 @@ const App = () => {
   return(
     //fragment
     <>
+      <img src={backgroundImage} width="300" height="300"></img>
+
       <Header title="Projects"/>
 
       <ul>
